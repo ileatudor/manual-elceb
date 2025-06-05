@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual ELCEB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px;
+            overflow-y: auto;
+        }
+        nav a {
+            color: white;
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .pdf-button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .pdf-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manual ELCEB</h1>
+    </header>
+    <nav>
+        <a href="#introduction">Introducere</a>
+        <a href="#getting-started">Începeți</a>
+        <a href="#features">Funcționalități</a>
+        <a href="#faqs">Întrebări frecvente</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introducere</h2>
+            <p>Bine ați venit la manualul aplicației ELCEB.</p>
+        </section>
+        <section id="getting-started">
+            <h2>Începeți</h2>
+            <p>Instrucțiuni pentru a începe utilizarea aplicației ELCEB.</p>
+        </section>
+        <section id="features">
+            <h2>Funcționalități</h2>
+            <button class="pdf-button" onclick="window.open('manual deschideri autofinantate.pdf', '_blank')">Deschideri autofinanțate</button>
+            <button class="pdf-button" onclick="window.open('Manual Elceb - Modul Evidenta Bugetara.pdf', '_blank')">Evidența bugetară</button>
+        </section>
+        <section id="faqs">
+            <h2>Întrebări frecvente</h2>
+            <p>Răspunsuri la întrebările frecvente despre aplicația ELCEB.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Informații de contact pentru suport tehnic.</p>
+        </section>
+    </main>
+</body>
+</html>
